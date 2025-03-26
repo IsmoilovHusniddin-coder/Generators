@@ -1,0 +1,28 @@
+.potent-section-content-wrapper {
+  width: 873px;
+  height: 200px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.potent-section-title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--clr-333);
+}
+.potent-section-coment {
+  font-family: Helvetica Neue;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: var(--clr-333);
+  opacity: 80%;
+}

@@ -1,0 +1,60 @@
+.nas {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding: 68px 0 76px;
+}
+
+.nas-section-content-wrapper {
+  width: 542px;
+  gap: 16px;
+  height: 313px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nas-section-content-title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: var(--clr-333);
+}
+
+.nas-section-content-about {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: var(--clr-333);
+  opacity: 80%;
+}
+
+.nas-section-content-btn {
+  margin-top: 29px;
+  padding: 15px 30px 15px 31px;
+  color: var(--clr-fff);
+  background-color: var(--clr-blue);
+  border: 2px solid var(--clr-blue);
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 39%;
+  height: 52px;
+  margin-left: 61%;
+}
+
+.nas-section-content-btn:hover {
+  color: var(--clr-blue);
+  background-color: var(--clr-fff);
+}
+
+.nas-section-content-btn:active {
+  color: var(--clr-fff);
+  background-color: var(--clr-blue);
+}
