@@ -437,14 +437,14 @@
   background-color: var(--clr-blue);
 }
 
-.potent-section {
-}
-
 .potent-section-content-wrapper {
   width: 873px;
   height: 200px;
   margin: 0 auto;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 .potent-section-title {
   font-weight: 700;
